@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-synthetic-trajectory-evaluator-skill",
+  "version": "1.0.0",
+  "description": "Execution trajectory evaluator computing action-level precision, recall, and Levenshtein sequence edit distance against gold benchmarks.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "trajectory-eval",
+    "agent-benchmarking",
+    "levenshtein-distance",
+    "precision-recall",
+    "agentic-eval",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "evaluate_trajectory",
+      "description": "Evaluate agent action sequence against gold reference trajectory."
+    },
+    {
+      "name": "run_benchmark_trajectory_evaluator",
+      "description": "Run trajectory evaluator benchmark suite."
+    }
+  ]
+}
